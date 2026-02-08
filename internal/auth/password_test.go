@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	"github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
 )
 
 func TestHashAndVerifyPassword(t *testing.T) {

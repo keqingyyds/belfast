@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ggmolly/belfast/internal/rng"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/rng"
 	"gorm.io/gorm"
 )
 

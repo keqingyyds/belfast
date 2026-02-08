@@ -1,10 +1,10 @@
 package answer
 
 import (
-	"github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
 )
 
 func CommanderGuildData(buffer *[]byte, client *connection.Client) (int, int, error) {

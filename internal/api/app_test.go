@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ggmolly/belfast/internal/config"
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 )
 
 func TestStartDisabled(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 )
 
 func TestHealthRoute(t *testing.T) {

@@ -20,7 +20,7 @@ Belfast currently has:
 - A small API that allows you to quickly implement new game messages without head scratching.
 - A great dissection tool in which every packet is stored, along with a `protobuf` -> `json` deserializer.
 - A REST API with Swagger docs and admin endpoints for server tooling.
-- A web UI in development: https://github.com/ggmolly/belfast-web.
+- A web UI in development: https://https://gh.xmly.dev/github.com/ggmolly/belfast-web.
 - Config-driven packet response hydration for rapid prototyping.
 - Packet progress tooling and webhook-based status updates.
 - Runtime config toggles (maintenance mode, host/port overrides).
@@ -30,7 +30,7 @@ Belfast currently has:
 - `cmd/belfast` defaults to `server.toml` (game server config).
 - `cmd/gateway` defaults to `gateway.toml` (gateway config).
 - Gateway server list is defined in `[[servers]]`; server names come from each game server's `/api/v1/server/status`.
-- To embed the git commit in status, build with `-ldflags "-X github.com/ggmolly/belfast/internal/buildinfo.Commit=$(git rev-parse --short HEAD)"`.
+- To embed the git commit in status, build with `-ldflags "-X https://gh.xmly.dev/github.com/ggmolly/belfast/internal/buildinfo.Commit=$(git rev-parse --short HEAD)"`.
 
 # 🌠 State
 

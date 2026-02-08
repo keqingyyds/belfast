@@ -11,15 +11,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/smallnest/ringbuffer"
+	"https://gh.xmly.dev/github.com/smallnest/ringbuffer"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ggmolly/belfast/internal/consts"
-	"github.com/ggmolly/belfast/internal/debug"
-	"github.com/ggmolly/belfast/internal/logger"
-	"github.com/ggmolly/belfast/internal/orm"
-	"github.com/ggmolly/belfast/internal/protobuf"
-	"github.com/ggmolly/belfast/internal/region"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/debug"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/region"
 )
 
 const (

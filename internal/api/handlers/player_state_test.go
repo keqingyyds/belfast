@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 func TestPlayerStateEndpoints(t *testing.T) {

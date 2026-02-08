@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/region"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/region"
 )
 
 type mockConn struct{}

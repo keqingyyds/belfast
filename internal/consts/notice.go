@@ -1,6 +1,6 @@
 package consts
 
-// Refer to https://github.com/ggmolly/belfast/blob/main/protobuf/NOTICEINFO.pb.go
+// Refer to https://https://gh.xmly.dev/github.com/ggmolly/belfast/blob/main/protobuf/NOTICEINFO.pb.go
 var (
 	// Notice.TagType
 	TAG_TYPE_EVENT  = 1

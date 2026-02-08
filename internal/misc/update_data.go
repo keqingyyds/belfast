@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ggmolly/belfast/internal/logger"
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 	"google.golang.org/protobuf/proto"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
@@ -16,8 +16,8 @@ import (
 
 const (
 	// region / file
-	URL_BASE            = "https://raw.githubusercontent.com/ggmolly/belfast-data/main/%s/%s"
-	REGIONLESS_URL_BASE = "https://raw.githubusercontent.com/ggmolly/belfast-data/main/%s"
+	URL_BASE            = "https://gh.xmly.dev/raw.githubusercontent.com/ggmolly/belfast-data/main/%s/%s"
+	REGIONLESS_URL_BASE = "https://gh.xmly.dev/raw.githubusercontent.com/ggmolly/belfast-data/main/%s"
 )
 
 var (
@@ -67,7 +67,7 @@ type githubContent struct {
 }
 
 func listBelfastDataFiles(region string, directory string) ([]string, error) {
-	url := fmt.Sprintf("https://api.github.com/repos/ggmolly/belfast-data/contents/%s/%s", region, directory)
+	url := fmt.Sprintf("https://api.https://gh.xmly.dev/github.com/repos/ggmolly/belfast-data/contents/%s/%s", region, directory)
 	resp, err := http.Get(url)
 	if err != nil {
 		return nil, err

@@ -10,15 +10,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 
-	"github.com/ggmolly/belfast/internal/api"
-	"github.com/ggmolly/belfast/internal/api/types"
-	"github.com/ggmolly/belfast/internal/config"
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/consts"
-	"github.com/ggmolly/belfast/internal/orm"
-	"github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
 )
 
 type playerListResponse struct {

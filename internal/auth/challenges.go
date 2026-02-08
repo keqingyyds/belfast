@@ -5,12 +5,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/google/uuid"
+	"https://gh.xmly.dev/github.com/google/uuid"
 	"gorm.io/gorm"
 
-	"github.com/go-webauthn/webauthn/webauthn"
+	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 var ErrChallengeNotFound = errors.New("challenge not found")

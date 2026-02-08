@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/iris-contrib/swagger"
-	"github.com/iris-contrib/swagger/swaggerFiles"
-	"github.com/kataras/iris/v12"
-	"github.com/swaggo/swag"
+	"https://gh.xmly.dev/github.com/iris-contrib/swagger"
+	"https://gh.xmly.dev/github.com/iris-contrib/swagger/swaggerFiles"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/swaggo/swag"
 
-	"github.com/ggmolly/belfast/docs"
-	"github.com/ggmolly/belfast/internal/api/middleware"
-	"github.com/ggmolly/belfast/internal/api/routes"
-	"github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/docs"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/routes"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
 )
 
 var swaggerOnce sync.Once

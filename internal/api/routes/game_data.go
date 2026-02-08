@@ -1,11 +1,11 @@
 package routes
 
 import (
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 
-	"github.com/ggmolly/belfast/internal/api/handlers"
-	"github.com/ggmolly/belfast/internal/api/middleware"
-	"github.com/ggmolly/belfast/internal/authz"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/handlers"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
 )
 
 const apiBasePath = "/api/v1"

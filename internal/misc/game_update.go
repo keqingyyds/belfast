@@ -11,16 +11,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/consts"
-	"github.com/ggmolly/belfast/internal/logger"
-	"github.com/ggmolly/belfast/internal/protobuf"
-	"github.com/ggmolly/belfast/internal/region"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/region"
 	"google.golang.org/protobuf/proto"
 )
 
 const (
-	versionURL = "https://raw.githubusercontent.com/ggmolly/belfast-data/main/versions.json"
+	versionURL = "https://gh.xmly.dev/raw.githubusercontent.com/ggmolly/belfast-data/main/versions.json"
 )
 
 var (

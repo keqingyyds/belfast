@@ -16,19 +16,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcapgo"
-	"github.com/google/gopacket/tcpassembly"
-	"github.com/google/gopacket/tcpassembly/tcpreader"
+	"https://gh.xmly.dev/github.com/google/gopacket"
+	"https://gh.xmly.dev/github.com/google/gopacket/layers"
+	"https://gh.xmly.dev/github.com/google/gopacket/pcapgo"
+	"https://gh.xmly.dev/github.com/google/gopacket/tcpassembly"
+	"https://gh.xmly.dev/github.com/google/gopacket/tcpassembly/tcpreader"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	"github.com/ggmolly/belfast/internal/logger"
-	"github.com/ggmolly/belfast/internal/packets"
-	_ "github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
+	_ "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
 )
 
 type packetRecord struct {

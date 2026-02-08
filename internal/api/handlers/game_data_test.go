@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 func newGameDataTestApp(t *testing.T) *iris.Application {

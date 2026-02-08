@@ -1,10 +1,10 @@
 package entrypoint
 
 import (
-	"github.com/ggmolly/belfast/internal/answer"
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/packets"
-	"github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/answer"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

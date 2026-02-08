@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/BurntSushi/toml"
+	"https://gh.xmly.dev/github.com/BurntSushi/toml"
 )
 
 type Config struct {

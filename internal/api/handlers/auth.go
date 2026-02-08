@@ -10,20 +10,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/google/uuid"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 	"gorm.io/gorm"
 
-	"github.com/go-webauthn/webauthn/protocol"
-	"github.com/go-webauthn/webauthn/webauthn"
+	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/protocol"
+	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/ggmolly/belfast/internal/api/middleware"
-	"github.com/ggmolly/belfast/internal/api/response"
-	"github.com/ggmolly/belfast/internal/api/types"
-	"github.com/ggmolly/belfast/internal/auth"
-	"github.com/ggmolly/belfast/internal/authz"
-	"github.com/ggmolly/belfast/internal/config"
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/auth"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 type AuthHandler struct {

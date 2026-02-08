@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
 )
 
 func TestMaintenanceBlocksNewConnections(t *testing.T) {

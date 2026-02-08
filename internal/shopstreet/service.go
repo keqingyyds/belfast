@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ggmolly/belfast/internal/orm"
-	rngutil "github.com/ggmolly/belfast/internal/rng"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	rngutil "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/rng"
 	"gorm.io/gorm"
 )
 

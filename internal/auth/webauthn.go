@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-webauthn/webauthn/protocol"
-	"github.com/go-webauthn/webauthn/webauthn"
+	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/protocol"
+	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
 )
 
 type WebAuthnProvider interface {

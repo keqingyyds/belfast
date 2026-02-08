@@ -3,7 +3,7 @@ package orm
 import (
 	"fmt"
 
-	"github.com/ggmolly/belfast/internal/protobuf"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 	"gorm.io/gorm"
 )

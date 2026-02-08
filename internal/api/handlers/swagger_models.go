@@ -1,6 +1,6 @@
 package handlers
 
-import "github.com/ggmolly/belfast/internal/api/types"
+import "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
 
 type OKResponseDoc struct {
 	OK bool `json:"ok"`

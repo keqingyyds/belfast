@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/uuid"
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/google/uuid"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 
-	"github.com/ggmolly/belfast/internal/api/middleware"
-	"github.com/ggmolly/belfast/internal/api/routes"
-	"github.com/ggmolly/belfast/internal/auth"
-	"github.com/ggmolly/belfast/internal/authz"
-	"github.com/ggmolly/belfast/internal/config"
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/routes"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/auth"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 func newPlayerAuthzTestApp(t *testing.T) *iris.Application {

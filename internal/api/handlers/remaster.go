@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"https://gh.xmly.dev/github.com/kataras/iris/v12"
 	"gorm.io/gorm"
 
-	"github.com/ggmolly/belfast/internal/api/response"
-	"github.com/ggmolly/belfast/internal/api/types"
-	"github.com/ggmolly/belfast/internal/orm"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
 )
 
 // PlayerRemasterState godoc

@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/akamensky/argparse"
-	"github.com/fsnotify/fsnotify"
-	"github.com/ggmolly/belfast/internal/config"
-	"github.com/ggmolly/belfast/internal/connection"
-	"github.com/ggmolly/belfast/internal/logger"
-	"github.com/ggmolly/belfast/internal/packets"
+	"https://gh.xmly.dev/github.com/akamensky/argparse"
+	"https://gh.xmly.dev/github.com/fsnotify/fsnotify"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
 )
 
 var gatewayOnce sync.Once
