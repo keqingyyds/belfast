@@ -3,7 +3,7 @@ package entrypoint
 import (
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
+	"github.com/ggmolly/belfast/internal/packets"
 )
 
 func TestRegisterPacketsIncludes14004(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 	"gorm.io/gorm"
 )

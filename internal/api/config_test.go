@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/config"
 )
 
 func TestNormalizeOrigins(t *testing.T) {

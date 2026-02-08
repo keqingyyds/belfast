@@ -3,8 +3,8 @@ package answer
 import (
 	"errors"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/orm"
 	"gorm.io/gorm"
 )
 

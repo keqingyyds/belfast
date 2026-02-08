@@ -6,7 +6,7 @@ PROTOC_GEN_GO := $(shell go env GOPATH)/bin/protoc-gen-go
 .PHONY: lua-proto proto go all swag install-protoc-gen-go build build-belfast build-gateway clean fclean re
 
 COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo unknown)
-LDFLAGS := -s -w -X https://gh.xmly.dev/github.com/ggmolly/belfast/internal/buildinfo.Commit=$(COMMIT)
+LDFLAGS := -s -w -X github.com/ggmolly/belfast/internal/buildinfo.Commit=$(COMMIT)
 BINARY_DIR ?= bin
 EXE ?=
 ifeq ($(GOOS),windows)
@@ -27,7 +27,7 @@ go: proto
 all: lua-proto proto
 
 swag:
-	go run https://gh.xmly.dev/github.com/swaggo/swag/cmd/swag init -g cmd/belfast/main.go
+	go run github.com/swaggo/swag/cmd/swag init -g cmd/belfast/main.go
 
 build: build-belfast build-gateway
 

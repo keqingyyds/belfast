@@ -20,7 +20,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	_ "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	_ "github.com/ggmolly/belfast/internal/protobuf"
 )
 
 const (
@@ -461,15 +461,15 @@ func buildImportAliases(file *ast.File) importAliases {
 		}
 		name := importName(spec, path)
 		switch path {
-		case "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf":
+		case "github.com/ggmolly/belfast/internal/protobuf":
 			aliases.Protobuf = append(aliases.Protobuf, name)
 		case "google.golang.org/protobuf/proto":
 			aliases.Proto = append(aliases.Proto, name)
-		case "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm":
+		case "github.com/ggmolly/belfast/internal/orm":
 			aliases.ORM = append(aliases.ORM, name)
-		case "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/misc":
+		case "github.com/ggmolly/belfast/internal/misc":
 			aliases.Misc = append(aliases.Misc, name)
-		case "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection":
+		case "github.com/ggmolly/belfast/internal/connection":
 			aliases.Connection = append(aliases.Connection, name)
 		}
 	}

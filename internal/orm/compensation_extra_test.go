@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"github.com/ggmolly/belfast/internal/consts"
 )
 
 func TestCompensationCRUDAndExpiry(t *testing.T) {

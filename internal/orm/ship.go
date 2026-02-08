@@ -3,7 +3,7 @@ package orm
 import (
 	"errors"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/rng"
+	"github.com/ggmolly/belfast/internal/rng"
 )
 
 type Ship struct {

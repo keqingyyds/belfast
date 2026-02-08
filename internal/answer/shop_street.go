@@ -4,10 +4,10 @@ import (
 	"sort"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/shopstreet"
+	"github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/shopstreet"
 	"google.golang.org/protobuf/proto"
 )
 

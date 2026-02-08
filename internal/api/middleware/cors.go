@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"https://gh.xmly.dev/github.com/iris-contrib/middleware/cors"
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/iris-contrib/middleware/cors"
+	"github.com/kataras/iris/v12"
 )
 
 func CORS(origins []string) iris.Handler {

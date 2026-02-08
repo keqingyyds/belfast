@@ -3,7 +3,7 @@ package api
 import (
 	"strings"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/config"
 )
 
 type Config struct {

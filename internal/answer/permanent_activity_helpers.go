@@ -3,7 +3,7 @@ package answer
 import (
 	"encoding/json"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 const permanentActivityConfigCategory = "ShareCfg/activity_task_permanent.json"

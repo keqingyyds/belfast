@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func EnsureUserHandle(user *orm.Account) error {

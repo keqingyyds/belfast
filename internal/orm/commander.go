@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/logger"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

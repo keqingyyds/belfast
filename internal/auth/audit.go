@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"https://gh.xmly.dev/github.com/google/uuid"
+	"github.com/google/uuid"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func LogAudit(action string, actorUserID *string, targetUserID *string, metadata map[string]interface{}) {

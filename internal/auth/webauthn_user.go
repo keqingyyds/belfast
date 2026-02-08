@@ -5,10 +5,10 @@ import (
 	"errors"
 	"strconv"
 
-	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/protocol"
-	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/webauthn"
+	"github.com/go-webauthn/webauthn/protocol"
+	"github.com/go-webauthn/webauthn/webauthn"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 type WebAuthnUser struct {

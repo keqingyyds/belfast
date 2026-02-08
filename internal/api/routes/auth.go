@@ -1,14 +1,14 @@
 package routes
 
 import (
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/go-webauthn/webauthn/protocol"
+	"github.com/go-webauthn/webauthn/protocol"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/handlers"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/auth"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/api/handlers"
+	"github.com/ggmolly/belfast/internal/auth"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/logger"
 )
 
 func RegisterAuth(app *iris.Application, cfg *config.Config) *auth.Manager {

@@ -1,7 +1,7 @@
 package orm
 
 import (
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"github.com/ggmolly/belfast/internal/consts"
 	"gorm.io/gorm"
 )
 

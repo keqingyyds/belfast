@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/auth"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/auth"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 const (

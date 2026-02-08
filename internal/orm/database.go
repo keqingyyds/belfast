@@ -3,7 +3,7 @@ package orm
 import (
 	"os"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/logger"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

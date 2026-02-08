@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/api/response"
 )
 
 func RegisterErrorHandlers(app *iris.Application) {

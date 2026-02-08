@@ -1,7 +1,7 @@
 package answer
 
 import (
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

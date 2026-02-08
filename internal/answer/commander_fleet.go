@@ -1,10 +1,10 @@
 package answer
 
 import (
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/connection"
 	"google.golang.org/protobuf/proto"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/protobuf"
 )
 
 func CommanderFleet(buffer *[]byte, client *connection.Client) (int, int, error) {

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/rng"
+	"github.com/ggmolly/belfast/internal/consts"
+	"github.com/ggmolly/belfast/internal/rng"
 )
 
 func TestCommanderBeforeSaveCapsLevel(t *testing.T) {

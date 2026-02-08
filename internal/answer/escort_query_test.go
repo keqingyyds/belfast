@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/misc"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/misc"
+	"github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/packets"
+	"github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

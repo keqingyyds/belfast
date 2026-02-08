@@ -5,12 +5,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/routes"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/api/middleware"
+	"github.com/ggmolly/belfast/internal/api/routes"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/connection"
 )
 
 func TestServerStatusPublic(t *testing.T) {

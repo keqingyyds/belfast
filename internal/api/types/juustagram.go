@@ -1,6 +1,6 @@
 package types
 
-import "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+import "github.com/ggmolly/belfast/internal/orm"
 
 type JuustagramTemplate = orm.JuustagramTemplate
 

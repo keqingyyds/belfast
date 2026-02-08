@@ -1,6 +1,6 @@
 package answer
 
-import "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+import "github.com/ggmolly/belfast/internal/connection"
 
 func NewTracking(buffer *[]byte, client *connection.Client) (int, int, error) {
 	// TODO: Persist new tracking events if analytics support is added.

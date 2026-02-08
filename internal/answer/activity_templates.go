@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 type activityTemplate struct {

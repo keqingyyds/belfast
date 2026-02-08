@@ -13,10 +13,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	queue "gopkg.in/eapache/queue.v1"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
-	rngutil "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/rng"
+	"github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/protobuf"
+	rngutil "github.com/ggmolly/belfast/internal/rng"
 )
 
 const (

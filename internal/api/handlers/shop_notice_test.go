@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func newNoticeTestApp(t *testing.T) *iris.Application {

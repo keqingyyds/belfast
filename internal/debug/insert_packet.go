@@ -3,8 +3,8 @@ package debug
 import (
 	"fmt"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func InsertPacket(packetId int, payload *[]uint8) {

@@ -3,7 +3,7 @@ package packets_test
 import (
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
+	"github.com/ggmolly/belfast/internal/packets"
 )
 
 func TestPacketParsing(t *testing.T) {

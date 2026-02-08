@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 	"gorm.io/gorm"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/auth"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/api/middleware"
+	"github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/auth"
+	"github.com/ggmolly/belfast/internal/authz"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 type AdminAuthzHandler struct{}

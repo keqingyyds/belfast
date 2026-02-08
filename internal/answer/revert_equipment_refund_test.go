@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func TestComputeRevertEquipmentRefundsUsesPrevTransUse(t *testing.T) {

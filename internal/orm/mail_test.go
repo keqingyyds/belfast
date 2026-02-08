@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/consts"
+	"github.com/ggmolly/belfast/internal/consts"
 	"gorm.io/gorm"
 )
 

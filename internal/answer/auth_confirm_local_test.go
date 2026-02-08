@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/packets"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/packets"
+	"github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"https://gh.xmly.dev/github.com/fatih/color"
+	"github.com/fatih/color"
 )
 
 const (

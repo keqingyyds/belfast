@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func seedJuustagramChatData(t *testing.T) uint32 {

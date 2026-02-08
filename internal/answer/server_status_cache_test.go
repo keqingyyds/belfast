@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/config"
 )
 
 func TestServerStatusCacheMapping(t *testing.T) {

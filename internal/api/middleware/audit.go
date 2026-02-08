@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"https://gh.xmly.dev/github.com/google/uuid"
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/google/uuid"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 const (

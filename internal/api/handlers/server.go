@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/middleware"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/buildinfo"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/region"
+	"github.com/ggmolly/belfast/internal/api/middleware"
+	"github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/authz"
+	"github.com/ggmolly/belfast/internal/buildinfo"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/region"
 )
 
 type ServerHandler struct {

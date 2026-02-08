@@ -1,11 +1,8 @@
 name: Release CD
 
 on:
-  # 保留原有的release自动触发
   release:
     types: [created]
-  # 添加手动触发机制
-  workflow_dispatch:
 
 permissions:
   contents: write

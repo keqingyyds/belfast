@@ -3,8 +3,8 @@ package answer
 import (
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

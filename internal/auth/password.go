@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/crypto/argon2"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/config"
 )
 
 const passwordAlgoArgon2id = "argon2id"

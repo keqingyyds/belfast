@@ -3,10 +3,10 @@ package answer
 import (
 	"fmt"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/protobuf"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/protobuf"
 )
 
 func Forge_SC10019(buffer *[]byte, client *connection.Client) (int, int, error) {

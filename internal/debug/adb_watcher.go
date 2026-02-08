@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
-	"https://gh.xmly.dev/github.com/mattn/go-tty"
+	"github.com/ggmolly/belfast/internal/logger"
+	"github.com/mattn/go-tty"
 )
 
 var handlers = map[string]func(){

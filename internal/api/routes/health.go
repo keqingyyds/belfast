@@ -3,9 +3,9 @@ package routes
 import (
 	"time"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/response"
+	"github.com/ggmolly/belfast/internal/api/response"
 )
 
 type healthResponse struct {

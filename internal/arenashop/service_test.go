@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

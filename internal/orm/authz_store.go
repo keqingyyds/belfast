@@ -5,11 +5,11 @@ import (
 	"sort"
 	"time"
 
-	"https://gh.xmly.dev/github.com/google/uuid"
+	"github.com/google/uuid"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/authz"
+	"github.com/ggmolly/belfast/internal/authz"
 )
 
 func ListRoles() ([]Role, error) {

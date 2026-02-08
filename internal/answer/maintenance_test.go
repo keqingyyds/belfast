@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/config"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/connection"
+	"github.com/ggmolly/belfast/internal/api"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/config"
+	"github.com/ggmolly/belfast/internal/connection"
 )
 
 func TestConfigLoadMaintenance(t *testing.T) {

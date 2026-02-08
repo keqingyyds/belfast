@@ -3,9 +3,9 @@ package middleware
 import (
 	"time"
 
-	"https://gh.xmly.dev/github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/logger"
+	"github.com/ggmolly/belfast/internal/logger"
 )
 
 func RequestLogger() iris.Handler {

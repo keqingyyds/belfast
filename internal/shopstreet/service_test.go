@@ -3,7 +3,7 @@ package shopstreet
 import (
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 func TestSelectOffers(t *testing.T) {

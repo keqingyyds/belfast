@@ -1,6 +1,6 @@
 package main
 
-import "https://gh.xmly.dev/github.com/ggmolly/belfast/internal/entrypoint"
+import "github.com/ggmolly/belfast/internal/entrypoint"
 
 func main() {
 	entrypoint.Run(entrypoint.Options{

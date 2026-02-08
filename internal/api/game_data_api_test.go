@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/api/types"
-	"https://gh.xmly.dev/github.com/ggmolly/belfast/internal/orm"
+	"github.com/ggmolly/belfast/internal/api/types"
+	"github.com/ggmolly/belfast/internal/orm"
 )
 
 type shipListResponse struct {
